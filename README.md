@@ -1,5 +1,5 @@
                                                           ######  The Black Jack Game  ######
-Blackjack is a classic casino game of luck and strategy...
+Blackjack is a classic casino game of luck and strategy ...
 
 ## How do you beat the dealer ## 
 By drawing a hand value that is higher than the dealer’s hand value
