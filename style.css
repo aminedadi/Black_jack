@@ -1,0 +1,86 @@
+body{
+    background-color: black;
+}
+.container{
+    width: 80%;
+    margin: 0 auto;
+
+}
+.container_img{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#main_img{
+    width: 450px;
+    border-radius: 10px;    
+    height: 250px;
+}
+.gamecontainer{
+    color: gold;
+    min-height: 550px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background: url('imgs/back3.jpg') ;
+    background-size: cover;
+    border-radius: 10px;   
+}
+#your_box, #dealer_box{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    flex: 1;
+    border: black 1px solid;
+}
+.button_box{
+    width: 20%;
+    margin: 10px auto;
+    display: flex;
+    justify-content: space-around;
+}
+button{
+    width: 70px;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 0 5px;
+}
+.table_box{
+    
+    text-align: center;
+    color:whitesmoke;
+    display: flex;
+    justify-content: center;
+}
+table, th, tr, td{
+    border: 2px solid gold ;    
+}
+th, tr, td{
+    padding: 5px;
+}
+img{
+    margin: 3px;
+    width: 120px;
+    height:180px;
+}
+h2{
+    width: 100%;
+    text-align: center;
+}
+
+@media (max-width: 1024px){
+
+    .container{
+    width: 100%;
+    }
+}
+@media (max-width:450px){
+    #main_img{
+        max-width: 100%;
+        border-radius: 10px;    
+        height: 200px;
+    }
+}
